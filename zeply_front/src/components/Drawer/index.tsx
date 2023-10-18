@@ -1,8 +1,7 @@
 "use client";
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
-import { HeartIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import { PencilIcon, PlusIcon } from "@heroicons/react/20/solid";
+import { XMarkIcon } from "@heroicons/react/24/outline";
 
 export default function Drawer({ isNotification, handleDrawer }) {
   return (

@@ -8,7 +8,7 @@ import List from "@/components/List/index";
 export default function Home() {
   const [isNotification, setIsNotification] = useState(false);
 
-  const handleDrawer = (providedState: boolean) => {
+  const handleDrawer = (providedState) => {
     setIsNotification(providedState ? providedState : !isNotification);
   };
   return (
